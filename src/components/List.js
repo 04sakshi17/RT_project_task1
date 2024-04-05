@@ -17,6 +17,7 @@ function List() {
     <>
       <div>
         <h2>Characters</h2>
+        <div className='row'>
         {loading ? (
           <div>Loading.........</div>
         ) : (
@@ -31,8 +32,9 @@ function List() {
             ))}
           </div>
         )}
+        </div>
       </div>
     </>
   );
 }
-export default List;
+export default List;
